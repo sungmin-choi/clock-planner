@@ -20,8 +20,12 @@ h4{
 .showing{
   display:block;
 }
+.js-weather{
+  color: white;
+  font-size:60px;
+}
 
-@@keyframes fadeIn {
+@keyframes fadeIn {
   from{
     opacity: 0;
   }
@@ -48,4 +52,11 @@ h4{
 }
 .btncolor{
   color: black;
+}
+.js-toDoList{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
