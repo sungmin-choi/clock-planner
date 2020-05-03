@@ -36,6 +36,8 @@ function paintToDo(text){
   li.id = newId;
   toDoList.appendChild(li);
   li.classList.add(LI);
+  li.style.padding=0;
+  li.style.margin=0;
 
 
   const toDoObj ={
